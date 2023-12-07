@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Helvetica;
+  src: url('assets/fonts/Helvetica.ttf');
+}
+
+body {
+  font-family: Helvetica, Arial;
+  font-size: 4.5rem;
+}
+
 .main-container {
   display: flex;
 }
@@ -50,5 +60,5 @@
 form div {
   display: flex;
   justify-content: space-between;
-  margin: 4rem;
+  margin: 10rem;
 }
