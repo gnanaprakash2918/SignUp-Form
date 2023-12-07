@@ -44,5 +44,11 @@
   width: 95%;
   height: 50%;
   border: 2px solid red;
-  padding: 20px;
+  padding: 1em;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
 }
