@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.left-side-container {
+  height: 100vh; /* To fit into one single page */
+  width: 35%; /* Occupy the left portion */
+  overflow: hidden; /* Fit into Single Page */
+}
+
+.left-side-container img {
+  /* Fill Image inside div */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Maintain Aspect Ratio */
+  width: auto;
+  height: auto;
+}
