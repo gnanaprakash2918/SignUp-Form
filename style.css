@@ -53,13 +53,17 @@ body {
 .sign-up-form {
   width: 93%;
   height: 55%;
-  border: 2px solid red;
-  padding: 1em;
+  /* border: 2px solid red; */
+  padding: 0 1.5em 0 1.5em;
 }
 
 form div {
   display: flex;
   justify-content: space-between;
+}
+
+.name-form,
+.email-and-phone-form {
   margin-bottom: 30px;
 }
 
@@ -68,7 +72,6 @@ input {
   padding: 0.5em;
   border: 1px solid #999;
   border-radius: 5px;
-  color: #ccc;
 }
 
 label {
