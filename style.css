@@ -11,7 +11,7 @@
 
 body {
   font-family: Helvetica, Arial;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .main-container {
@@ -51,7 +51,7 @@ body {
 }
 
 .sign-up-form {
-  width: 95%;
+  width: 90%;
   height: 50%;
   border: 2px solid red;
   padding: 1em;
@@ -60,16 +60,16 @@ body {
 form div {
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 input {
-  width: 300px;
+  width: 380px;
   padding: 0.5em;
 }
 
 label {
-  height: 60px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
