@@ -10,7 +10,7 @@
   overflow: hidden; /* Fit into Single Page */
 }
 
-.left-side-container img {
+.bg-img {
   /* Fill Image inside div */
   min-width: 100%;
   min-height: 100%;
