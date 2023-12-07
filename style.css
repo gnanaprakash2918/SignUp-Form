@@ -86,8 +86,12 @@ input {
   padding: 0.5em;
   border: 1px solid whitesmoke;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   color: whitesmoke;
+}
+
+input:focus {
+  border: 2px solid whitesmoke;
 }
 
 label {
