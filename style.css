@@ -92,7 +92,7 @@ input {
 }
 
 input:valid {
-  border: 2px solid #405cf5;
+  border: 2px solid rgb(21, 255, 21);
 }
 
 label {
